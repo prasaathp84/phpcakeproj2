@@ -1,0 +1,22 @@
+# Uncomment the following to prevent the httpoxy vulnerability
+# See: https://httpoxy.org/
+#<IfModule mod_headers.c>
+ #   RequestHeader unset Proxy
+#</IfModule>
+
+
+#<IfModule mod_rewrite.c>
+#   RewriteEngine On
+#    RewriteRule ^(shop5)$ http://localhost/PHPCakeProj2/index.php?page=$1 [L]
+#</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^$    index.php  [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>
+
+#DirectoryIndex index.php
+
+
+

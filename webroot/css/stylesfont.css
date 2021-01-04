@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-Jun-2020, 6:39:21 pm
+    Author     : prasa
+*/
+
+@font-face {
+  font-family:'Cabin-Bold';
+  src: url('fonts/Cabin-Bold.ttf');
+ }
+ 
+ @font-face {
+  font-family:'Cabin-BoldItalic';
+  src: url('fonts/Cabin-BoldItalic.ttf');
+ }
+ 
+  
+ @font-face {
+  font-family:'Cabin-Italic';
+  src: url('fonts/Cabin-Italic.ttf') format('truetype');
+ }
+  
+  
+ @font-face {
+  font-family:'Cabin-Regular';
+  src: url('fonts/Cabin-Regular.ttf');
+ }
+ 
+  
+ @font-face {
+  font-family:'Cabin-BoldItalic';
+  src: url('fonts/Cabin-BoldItalic.ttf');
+ }
+ 
+  
+ @font-face {
+  font-family:'LandasansUltraLight';
+  src: url('fonts/LandasansUltraLight.ttf');
+ }
+ 
+  @font-face {
+  font-family:'LibreFranklin-Regular';
+  src: url('fonts/Cabin-BoldItalic.ttf');
+ }
+
+ 
+  @font-face {
+  font-family:'LibreFranklin-Bold';
+  src: url('fonts/LibreFranklin-Bold.ttf');
+ }
+ 
+ @font-face {
+  font-family:'LibreFranklin-Light';
+  src: url('fonts/LibreFranklin-Light.ttf');
+ }
+ 
+ 
+  @font-face {
+  font-family:'LibreFranklin-Italic';
+  src: url('fonts/LibreFranklin-Italic.ttf');
+ }
+ 
+ 
+  @font-face {
+  font-family:'Natural';
+  src: url('fonts/Natural.ttf');
+ }
+   
+ @font-face {
+  font-family:'Notable-Regular';
+  src: url('fonts/Notable-Regular.ttf');
+ }
+ 
+ @font-face {
+  font-family:'Righteous-Regular';
+  src: url('fonts/Righteous-Regular.ttf');
+ }
+ 
+ 
+ .cabin_1
+ {
+	font-family:Cabin-Bold;
+	font-size:4em;
+ }
+ 
+  .cabin_2
+ {
+	font-family:Cabin-BoldItalic;
+	font-size:4em;
+ }
+ 
+  .cabin_3
+ {
+	font-family:Cabin-Italic;
+	font-size:4em;
+ }
+ 
+  .cabin_4
+ {
+	font-family:Cabin-Regular;
+	font-size:4em;
+ }
+ 
+  .cabin_5
+ {
+	font-family:Cabin-Bold;
+	font-size:15px;
+ }
+ 
+  .LandasansUltraLight_1
+ {
+	font-family:LandasansUltraLight;
+	font-size:4em;
+ }
+ 
+ .LibreFranklin-Light_1
+ {
+	font-family:LibreFranklin-Light;
+	font-size:14px;
+	 
+ }
+ 
+ .LibreFranklin-Italic_1
+ {
+	font-family:LibreFranklin-Italic;
+	font-size:16px;
+	 
+ }
+ 
+ 
+  .LibreFranklin-Regular_1
+ {
+	font-family:LibreFranklin-Regular;
+	font-size:2em;
+ }
+ 
+  .LibreFranklin-Bold_1
+ {
+	font-family:LibreFranklin-Bold;
+	font-size:15px;
+ }
+ 
+  .Natural_1
+ {
+	font-family:Natural;
+	font-size:4em;
+ }
+ 
+  .Notable-Regular_1
+ {
+	font-family:Notable-Regular;
+	font-size:2em;
+ }
+ 
+ .Righteous-Regular_1{
+	font-family:Righteous-Regular;
+	font-size:13px;
+ }
+ 
+
+ 

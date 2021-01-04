@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-Jun-2020, 6:39:03 pm
+    Author     : prasa
+*/
+
+
+a {
+	color: #900;
+	text-decoration: none;
+	}
+
+a:hover {
+	/* background: #900; */
+		/* color: #e8ea3b;  */
+	}
+
+/* Root = Horizontal, Secondary = Vertical */
+ul.navmenu {
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+	width: 25%; /*For KHTML*/
+	list-style: none;
+	height: 100%;
+	position:absolute;
+	bottom:0;
+	right:0;
+	
+	}
+
+ul.navmenu li {
+	margin: 0 0 0 20px;
+	border: 0 none;
+	padding: 0;
+	float: left; /*For Gecko*/
+	display: inline;
+	list-style: none;
+	position: relative;
+	height: 100%;
+	}
+
+ul.navmenu ul {
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+	width: 160px;
+	list-style: none;
+	display: none;
+	position: absolute;
+	/* top: 24px; */
+	left: 0;
+	background:#262323;
+	}
+
+ul.navmenu ul:after /*From IE 7 lack of compliance*/{
+	clear: both;
+	display: block;
+	font: 1px/0px serif;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	}
+
+ul.navmenu ul li {
+	width: 160px;
+	float: left; /*For IE 7 lack of compliance*/
+	display: block !important;
+	display: inline; /*For IE*/
+	}
+
+
+
+/* Root Menu */
+ul.navmenu a {
+	/* border: 1px solid #FFF; */
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	padding: 0 6px;
+	float: none !important;
+	margin:10px 0 0 19px;
+	display: block;
+	/* background: #EEE; */
+	color: #d19595;
+	font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	/* height: auto !important; */
+	height: 75%; /*For IE*/
+	}
+
+/* Root Menu Hover Persistence */
+ul.navmenu a:hover,
+ul.navmenu li:hover a,
+ul.navmenu li.iehover a {
+		color: #d4ce12;
+	}
+
+/* 2nd Menu */
+/* ul#navmenu li:hover li a, */
+/* ul#navmenu li.iehover li a { */
+	/* float: none; */
+	/* background: #EEE; */
+	/* color: #666; */
+	/* } */
+
+/* 2nd Menu Hover Persistence */
+/* ul#navmenu li:hover li a:hover, */
+/* ul#navmenu li:hover li:hover a, */
+/* ul#navmenu li.iehover li a:hover, */
+/* ul#navmenu li.iehover li.iehover a { */
+	/* background: #CCC; */
+	/* color: #FFF; */
+	/* } */
+
+/* 3rd Menu */
+/* ul#navmenu li:hover li:hover li a, */
+/* ul#navmenu li.iehover li.iehover li a { */
+	/* background: #EEE; */
+	/* color: #666; */
+	/* } */
+
+/* 3rd Menu Hover Persistence */
+/* ul#navmenu li:hover li:hover li a:hover, */
+/* ul#navmenu li:hover li:hover li:hover a, */
+/* ul#navmenu li.iehover li.iehover li a:hover, */
+/* ul#navmenu li.iehover li.iehover li.iehover a { */
+	/* background: #CCC; */
+	/* color: #FFF; */
+	/* } */
+
+/* 4th Menu */
+/* ul#navmenu li:hover li:hover li:hover li a, */
+/* ul#navmenu li.iehover li.iehover li.iehover li a { */
+	/* background: #EEE; */
+	/* color: #666; */
+	/* } */
+
+/* 4th Menu Hover */
+/* ul#navmenu li:hover li:hover li:hover li a:hover, */
+/* ul#navmenu li.iehover li.iehover li.iehover li a:hover { */
+	/* background: #CCC; */
+	/* color: #FFF; */
+	/* } */
+
+ul.navmenu ul ul,
+ul.navmenu ul ul ul {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 160px;
+	margin-left:1px;
+	}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul.navmenu li:hover ul ul,
+ul.navmenu li:hover ul ul ul,
+ul.navmenu li.iehover ul ul,
+ul.navmenu li.iehover ul ul ul {
+	display: none;
+	}
+
+ul.navmenu li:hover ul,
+ul.navmenu ul li:hover ul,
+ul.navmenu ul ul li:hover ul,
+ul.navmenu li.iehover ul,
+ul.navmenu ul li.iehover ul,
+ul.navmenu ul ul li.iehover ul {
+	display: block;
+	}
+
